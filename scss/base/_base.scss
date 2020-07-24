@@ -1,0 +1,22 @@
+/* Balises generiques */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black ;
+  }
+
+header{
+  border: gold 0.5px solid;
+
+}
+
+main{
+  border: yellow 3px dashed;
+}
+
+
+.wrap {
+ width: 100%;
+ max-width: 50%;
+ margin: 0 auto;
+}

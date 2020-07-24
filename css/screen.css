@@ -1,0 +1,54 @@
+/* Balises generiques */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black; }
+
+header {
+  border: gold 0.5px solid; }
+
+main {
+  border: yellow 3px dashed; }
+
+.wrap {
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto; }
+
+.l-main-nav {
+  background: black; }
+
+.l-main-nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.l-main-nav li {
+  position: relative; }
+
+.l-main-nav li, .l-main-nav a {
+  display: inline-block; }
+
+.l-main-nav a {
+  color: gold;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-top: 3px transparent solid; }
+
+.l-main-nav ul ul {
+  position: absolute;
+  color: black;
+  background-color: darkslategrey;
+  display: none;
+  width: 200px; }
+
+.l-main-nav li:hover > ul {
+  display: block; }
+
+.l-main-nav ul ul ul {
+  left: 100%;
+  top: 0; }
+
+.l-main-nav .is-active a, .l-main-nav li:hover > a {
+  color: black;
+  background-color: gold; }
